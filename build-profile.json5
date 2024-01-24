@@ -1,0 +1,41 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\chazhan\\.ohos\\config\\auto_debug_MyApplication_tech.changwei.chatbot_30086000588777594.cer",
+          "storePassword": "0000001AA4009FC8D1F975FEFF196013EB28768267410113887891354CA543D946840D759F290D3B63A9",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001A530A086FC4AF9AF2395061BEB900116572C7BE242516D31183ACBFC3C541CEBF2540804AF3EE",
+          "profile": "C:\\Users\\chazhan\\.ohos\\config\\auto_debug_MyApplication_tech.changwei.chatbot_30086000588777594.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\chazhan\\.ohos\\config\\auto_debug_MyApplication_tech.changwei.chatbot_30086000588777594.p12"
+        }
+      }
+    ],
+    "compileSdkVersion": 9,
+    "compatibleSdkVersion": 9,
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}
